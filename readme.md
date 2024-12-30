@@ -20,9 +20,12 @@ ActionRPG is a sample project that showcases:
 ## Getting Started
 
 1. Clone the repository into your projects "Plugins" folder
-2. Right-click the .uproject file and select "Generate Visual Studio project files"
-3. Open the solution and build
-4. Launch the project in Unreal Engine
+2. Copy the contents from Config.zip to your Projects "Config" folder (or you'll get a crash)
+3. Right-click the .uproject file and select "Generate Visual Studio project files"
+4. Open the solution and build
+5. Launch the project in Unreal Engine
+6. In Project settings under "Maps & Modes" set GameInstance to BP_GameInstance
+7. In your maps world settings, set GameMode to BP_GameMode, and Pawn to BP_PlayerCharacter
 
 ## Key Features
 
