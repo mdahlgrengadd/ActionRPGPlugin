@@ -19,7 +19,7 @@ ActionRPG is a sample project that showcases:
 
 ## Getting Started
 
-1. Clone the repository
+1. Clone the repository into your projects "Plugins" folder
 2. Right-click the .uproject file and select "Generate Visual Studio project files"
 3. Open the solution and build
 4. Launch the project in Unreal Engine
@@ -36,12 +36,7 @@ ActionRPG is a sample project that showcases:
 ## Project Structure
 
 - `/Source` - C++ source code
-- `/Content` - All project assets
-  - `/Blueprints` - Blueprint classes
-  - `/Characters` - Character assets
-  - `/Items` - Item definitions
-  - `/Maps` - Game levels
-  - `/UI` - User interface assets
+- `/Content/ActionRPG` - All project assets
 
 ## Contributing
 
@@ -54,7 +49,7 @@ This project is licensed under the same terms as the original ActionRPG sample f
 ## Credits
 
 - Original ActionRPG sample by Epic Games
-- UE5.5 port by [Your Name/Team]
+- UE5.5 port by [Martin Dahlgren]
 
 ## Version History
 
