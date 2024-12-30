@@ -1,0 +1,39 @@
+Here's the updated changelog with the latest changes:
+
+ActionRPG UE5.5 Port - Changelog
+
+Version 1.0.0 - Initial UE5.5 Port (December 2024)
+
+Core Updates:
+- Updated engine version from UE4.27 to UE5.5
+- Updated build settings to BuildSettingsVersion.V5
+- Updated C++ standard to Cpp20
+- Added EngineIncludeOrderVersion for UE5.5
+
+Code Changes:
+- Updated pointer validity checks throughout codebase for UE5 compatibility
+- Fixed TObjectPtr handling in RPGTargetType
+- Updated weak pointer checks to use IsValid()
+- Fixed ability validation logic in RPGAbilityTask_PlayMontageAndWaitForEvent
+- Updated UE_LOG formats for current engine standards
+- Updated GCObject implementation in loading screen system
+- Fixed asset loading system for packaged builds
+- Updated plugin module implementation to prevent duplicate symbols
+- Added primary asset type scanning configuration for plugin content
+
+Build System:
+- Updated ActionRPG.Build.cs for UE5.5 compatibility
+- Updated module dependencies
+- Added ModularGameplay to public dependency modules
+- Converted game module structure to plugin format
+- Updated build configuration to handle plugin content paths
+
+Known Issues:
+- Ray tracing initialization may fail on unsupported hardware
+- Animation montages may require rotation adjustment in UE5
+- Loading screen texture path needs manual update when used as plugin
+
+Notes:
+- Project requires UE5.5 or later
+- Save games from UE4.27 version are not compatible
+- Plugin requires proper configuration of primary asset types in DefaultGame.ini
