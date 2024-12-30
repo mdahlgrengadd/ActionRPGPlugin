@@ -1,6 +1,3 @@
-Here's a README.md file for your ActionRPG UE5.5 port:
-
-```markdown
 # ActionRPG UE5.5
 
 A port of Epic's ActionRPG sample project to Unreal Engine 5.5. This project demonstrates gameplay mechanics commonly found in action RPG games, updated to leverage UE5's features.
@@ -62,6 +59,3 @@ This project is licensed under the same terms as the original ActionRPG sample f
 ## Version History
 
 See [CHANGELOG.md](CHANGELOG.md) for version history.
-```
-
-Would you like me to add or modify any sections of this README?
